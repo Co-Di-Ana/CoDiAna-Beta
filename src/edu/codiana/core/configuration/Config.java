@@ -16,7 +16,7 @@ public class Config {
 
     private static String root, processRunner, username, password, database, server, port;
     private static File mailFile;
-    private static final Boolean DEBUG = true;
+    private static final Boolean DEBUG = false;
     private static final String CONFIG_PATH = DEBUG ? "./configDebug.ini" : "./config.ini";
 
 
